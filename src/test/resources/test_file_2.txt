@@ -1,0 +1,4 @@
+--> START //src/core:testRun
+=== RUN   TestOne
+--- PASS: TestOne (1.04s)
+PASS

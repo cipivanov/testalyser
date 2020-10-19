@@ -1,0 +1,7 @@
+--> START //src/core:testRun
+=== RUN   TestOne
+--- FAIL: TestOne (1.01s)
+=== RUN   TestTwo
+--- PASS: TestTwo (1.02s)
+--- SKIP: TestThree (1.03s)
+FAIL

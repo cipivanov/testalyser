@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Gradle</ID>
+  <OriginalElement>testalyser/testalyser</OriginalElement>
+  <nodes>
+    <node x="0.0" y="43.98214285714286">testalyser/testalyser</node>
+    <node x="136.5" y="74.45833333333333">org.junit.jupiter:junit-jupiter-api:5.6.2</node>
+    <node x="329.0" y="45.35714285714286">org.junit:junit-bom:5.6.2</node>
+    <node x="109.0" y="12.458333333333329">org.junit.platform:junit-platform-commons:1.6.2</node>
+    <node x="310.0" y="0.0">org.apiguardian:apiguardian-api:1.1.0</node>
+    <node x="326.0" y="92.02380952380952">org.opentest4j:opentest4j:1.2.0</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.junit.platform:junit-platform-commons:1.6.2" target="org.apiguardian:apiguardian-api:1.1.0">
+      <point x="90.5" y="-7.333333333333329" />
+      <point x="-63.0" y="-5.5" />
+    </edge>
+    <edge source="org.junit.jupiter:junit-jupiter-api:5.6.2" target="org.junit:junit-bom:5.6.2">
+      <point x="63.0" y="2.75" />
+      <point x="290.0" y="88.20833333333333" />
+      <point x="310.0" y="64.60714285714286" />
+      <point x="-44.0" y="8.25" />
+    </edge>
+    <edge source="org.junit:junit-bom:5.6.2" target="org.junit.platform:junit-platform-commons:1.6.2">
+      <point x="-44.0" y="-8.25" />
+      <point x="310.0" y="48.10714285714286" />
+      <point x="90.5" y="-0.0" />
+    </edge>
+    <edge source="org.junit.jupiter:junit-jupiter-api:5.6.2" target="org.junit.platform:junit-platform-commons:1.6.2">
+      <point x="0.0" y="-11.0" />
+      <point x="0.0" y="11.0" />
+    </edge>
+    <edge source="org.junit.jupiter:junit-jupiter-api:5.6.2" target="org.opentest4j:opentest4j:1.2.0">
+      <point x="63.0" y="8.25" />
+      <point x="290.0" y="93.70833333333333" />
+      <point x="310.0" y="103.02380952380952" />
+      <point x="-47.0" y="-0.0" />
+    </edge>
+    <edge source="testalyser/testalyser" target="org.junit.platform:junit-platform-commons:1.6.2">
+      <point x="44.5" y="-5.5" />
+      <point x="-90.5" y="-0.0" />
+    </edge>
+    <edge source="testalyser/testalyser" target="org.junit.jupiter:junit-jupiter-api:5.6.2">
+      <point x="44.5" y="5.5" />
+      <point x="109.0" y="85.45833333333333" />
+      <point x="-63.0" y="-0.0" />
+    </edge>
+    <edge source="org.junit.jupiter:junit-jupiter-api:5.6.2" target="org.apiguardian:apiguardian-api:1.1.0">
+      <point x="63.0" y="-8.25" />
+      <point x="290.0" y="77.20833333333333" />
+      <point x="-63.0" y="5.5" />
+    </edge>
+    <edge source="org.junit:junit-bom:5.6.2" target="org.junit.jupiter:junit-jupiter-api:5.6.2">
+      <point x="-44.0" y="2.75" />
+      <point x="310.0" y="59.10714285714286" />
+      <point x="290.0" y="82.70833333333333" />
+      <point x="63.0" y="-2.75" />
+    </edge>
+    <edge source="org.junit.platform:junit-platform-commons:1.6.2" target="org.junit:junit-bom:5.6.2">
+      <point x="90.5" y="7.333333333333329" />
+      <point x="310.0" y="53.60714285714286" />
+      <point x="-44.0" y="-2.75" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="57.5" />
+  <SelectedNodes>
+    <node>testalyser/testalyser</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Borderless View</Category>
+  </Categories>
+  <VISIBILITY>all</VISIBILITY>
+</Diagram>
+

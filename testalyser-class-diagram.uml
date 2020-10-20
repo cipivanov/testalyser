@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.tm.testalyser.cli.CommandLineInterface</OriginalElement>
+  <nodes>
+    <node x="10.5" y="704.0">com.tm.testalyser.implementation.parser.TestParser</node>
+    <node x="1103.5997023809523" y="1513.0">com.tm.testalyser.cli.CommandLineInterface</node>
+    <node x="389.5" y="748.5">com.tm.testalyser.Loader</node>
+    <node x="71.25" y="380.5">com.tm.testalyser.Parser</node>
+    <node x="847.5997023809524" y="1342.0">com.tm.testalyser.implementation.analyser.TestAnalyser</node>
+    <node x="1299.9747023809523" y="682.0">com.tm.testalyser.model.ReportType</node>
+    <node x="248.6351686507938" y="1029.0">com.tm.testalyser.implementation.loader.TestLoader</node>
+    <node x="363.38516865079373" y="193.0">com.tm.testalyser.model.TestRun</node>
+    <node x="182.67683531746047" y="0.0">com.tm.testalyser.model.TestStatus</node>
+    <node x="1394.5" y="1073.5">com.tm.testalyser.Analyser</node>
+    <node x="549.5" y="919.0">com.tm.testalyser.template.TestAnalyserReportGenerator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.Analyser">
+      <point x="85.71428571428578" y="-60.5" />
+      <point x="1033.313988095238" y="1322.0" />
+      <point x="1454.5" y="1322.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.tm.testalyser.template.TestAnalyserReportGenerator" target="com.tm.testalyser.model.ReportType">
+      <point x="271.0" y="-181.5" />
+      <point x="1227.0" y="899.0" />
+      <point x="1328.0997023809523" y="899.0" />
+      <point x="-84.375" y="93.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.template.TestAnalyserReportGenerator">
+      <point x="0.0" y="-60.5" />
+      <point x="947.5997023809524" y="1322.0" />
+      <point x="956.0" y="1322.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.parser.TestParser" target="com.tm.testalyser.model.TestStatus">
+      <point x="-134.25" y="-71.5" />
+      <point x="55.25" y="662.0" />
+      <point x="35.875" y="662.0" />
+      <point x="35.875" y="173.0" />
+      <point x="264.8018353174605" y="173.0" />
+      <point x="-27.375" y="71.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.loader.TestLoader" target="com.tm.testalyser.model.TestRun">
+      <point x="0.0" y="-71.5" />
+      <point x="364.6351686507938" y="899.0" />
+      <point x="379.0" y="899.0" />
+      <point x="379.0" y="662.0" />
+      <point x="476.7185019841271" y="662.0" />
+      <point x="-22.66666666666663" y="214.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.model.TestRun">
+      <point x="-28.571428571428555" y="-60.5" />
+      <point x="919.0282738095239" y="1302.0" />
+      <point x="539.0" y="1302.0" />
+      <point x="539.0" y="662.0" />
+      <point x="522.0518353174605" y="662.0" />
+      <point x="22.666666666666742" y="214.5" />
+    </edge>
+    <edge source="com.tm.testalyser.model.TestRun" target="com.tm.testalyser.model.TestStatus">
+      <point x="-68.0" y="-214.5" />
+      <point x="431.38516865079373" y="173.0" />
+      <point x="319.5518353174605" y="173.0" />
+      <point x="27.375" y="71.5" />
+    </edge>
+    <edge source="com.tm.testalyser.template.TestAnalyserReportGenerator" target="com.tm.testalyser.model.TestRun">
+      <point x="0.0" y="-181.5" />
+      <point x="956.0" y="899.0" />
+      <point x="911.9965277777778" y="899.0" />
+      <point x="911.9965277777778" y="652.0" />
+      <point x="612.7185019841271" y="652.0" />
+      <point x="113.33333333333337" y="214.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.loader.TestLoader" target="com.tm.testalyser.implementation.parser.TestParser">
+      <point x="-77.33333333333331" y="-71.5" />
+      <point x="287.3018353174605" y="899.0" />
+      <point x="189.5" y="899.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.loader.TestLoader" target="com.tm.testalyser.Loader">
+      <point x="77.33333333333331" y="-71.5" />
+      <point x="441.9685019841271" y="899.0" />
+      <point x="459.0" y="899.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.parser.TestParser" target="com.tm.testalyser.Parser">
+      <point x="-44.75" y="-71.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.model.ReportType">
+      <point x="28.571428571428555" y="-60.5" />
+      <point x="976.171130952381" y="1302.0" />
+      <point x="1373.0" y="1302.0" />
+      <point x="1373.0" y="889.0" />
+      <point x="1384.3497023809523" y="889.0" />
+      <point x="-28.125" y="93.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.model.TestStatus">
+      <point x="-85.71428571428578" y="-60.5" />
+      <point x="861.8854166666666" y="1322.0" />
+      <point x="0.0" y="1322.0" />
+      <point x="0.0" y="163.0" />
+      <point x="210.05183531746047" y="163.0" />
+      <point x="-82.125" y="71.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.parser.TestParser" target="com.tm.testalyser.model.TestRun">
+      <point x="44.75" y="-71.5" />
+      <point x="234.25" y="642.0" />
+      <point x="386.05183531746036" y="642.0" />
+      <point x="-113.33333333333337" y="214.5" />
+    </edge>
+    <edge source="com.tm.testalyser.cli.CommandLineInterface" target="com.tm.testalyser.model.ReportType">
+      <point x="64.25" y="-38.0" />
+      <point x="1296.3497023809523" y="1488.0" />
+      <point x="1525.0" y="1488.0" />
+      <point x="1525.0" y="899.0" />
+      <point x="1496.8497023809523" y="899.0" />
+      <point x="84.375" y="93.5" />
+    </edge>
+    <edge source="com.tm.testalyser.cli.CommandLineInterface" target="com.tm.testalyser.implementation.analyser.TestAnalyser">
+      <point x="-64.25" y="-38.0" />
+      <point x="1167.8497023809523" y="1488.0" />
+      <point x="947.5997023809524" y="1488.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="com.tm.testalyser.implementation.analyser.TestAnalyser" target="com.tm.testalyser.implementation.loader.TestLoader">
+      <point x="-57.14285714285711" y="-60.5" />
+      <point x="890.4568452380953" y="1312.0" />
+      <point x="364.6351686507938" y="1312.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6190180236171535" x="989.316265060241" y="784.5" />
+  <SelectedNodes>
+    <node>com.tm.testalyser.cli.CommandLineInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

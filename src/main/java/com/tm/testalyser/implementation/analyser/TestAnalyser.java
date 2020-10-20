@@ -26,7 +26,6 @@ public class TestAnalyser implements Analyser<String> {
     private final String testFileExtension;
     private final ReportType reportType;
 
-
     /**
      * @param directory         path of the directory containing the test files to be analysed;
      * @param testFileExtension extension of test files in the {@link #directory}, non-matching files are ignored;
@@ -50,6 +49,7 @@ public class TestAnalyser implements Analyser<String> {
      * ---------------------------------------------
      * | TestAcquireRepoLock       | PASS          |
      * ---------------------------------------------
+     * <p></p>
      *
      * @return a String format report with a structure determined by the analysis type, {@link ReportType}.
      */
